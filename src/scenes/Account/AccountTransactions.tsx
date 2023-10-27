@@ -117,7 +117,7 @@ const AccountTransactions: React.FC<AccountTransactionsProps> = ({ account }) =>
                     </a>
                 </td>
                 <td>
-                    {ethers.utils.formatEther(transaction.value)} ETH
+                    {ethers.utils.formatEther(transaction.value)} GHS
                 </td>
                 <td>
                     {new Date(transaction.block_timestamp).toLocaleString()}

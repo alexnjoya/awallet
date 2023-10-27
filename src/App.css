@@ -1,30 +1,38 @@
+/* Center align the content and control the width */
 .App {
   text-align: center;
-  width: 575px;
-  max-width: 100%;
+  max-width: 575px;
+  margin: 0 auto; /* Horizontally center the content */
+  padding: 20px; /* Add some padding for a cleaner look */
 }
 
-
+/* Style the form controls for a clean, modern look */
 input.form-control {
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 10px; /* Increased top margin for better spacing */
+  margin-bottom: 10px; /* Increased bottom margin for better spacing */
+  padding: 10px; /* Add some padding for better input control appearance */
+  width: 100%; /* Make input controls span the full width */
 }
 
+/* Style buttons */
 .btn {
-  margin: 5px
+  margin: 10px; /* Provide consistent spacing around buttons */
+  padding: 10px 20px; /* Add some padding for a more clickable appearance */
+  background-color: #61dafb; /* Use a distinct color for buttons */
+  color: white; /* White text on the button for better readability */
+  border: none; /* Remove button borders for a cleaner look */
+  cursor: pointer; /* Show a pointer cursor for better interaction feedback */
+  border-radius: 4px; /* Add some border-radius for rounded corners */
 }
 
+/* Style the logo image with animation */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  animation: App-logo-spin 20s linear infinite; /* Apply the spinning animation */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
+/* Style the header section */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -32,14 +40,17 @@ input.form-control {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(14px + 2vmin); /* Increase font size for better visibility */
   color: white;
 }
 
+/* Style links in your application */
 .App-link {
   color: #61dafb;
+  text-decoration: none; /* Remove underlines from links */
 }
 
+/* Define the spinning animation */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

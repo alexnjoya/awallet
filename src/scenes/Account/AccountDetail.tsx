@@ -84,7 +84,7 @@ const AccountDetail: React.FC<AccountDetailProps> = ({account}) => {
             Address: <a href={`https://goerli.etherscan.io/address/${account.address}`} target="_blank" rel="noreferrer">
             {account.address}
             </a><br/>
-            Balance: {balance} ETH
+            Balance: {balance} GHS
         </h4>
 
         <div className="form-group">
